@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  margin: 10px;
+}
+#edit {
+  color: #fff;
+  background-color: #337ab7;
+  border: 0 solid#2e6da4;
+}
+#cancel_button {
+  color: #fff;
+  background-color: #d9534f;
+  border: 0 solid #d43f3a;
+}
+table thead tr th {
+  border: 1px solid rgba(105, 105, 105, 0.571);
+  padding: 10px;
+  color: #7d7979;
+  font-weight: 100;
+  border-collapse: collapse;
+}
+tbody tr td {
+  border: 1px solid rgba(105, 105, 105, 0.571);
+  padding: 10px;
+  color: #7d7979;
+  font-weight: 100;
+}
+table,
+td,
+th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 10px;
+}
+input {
+  display: block;
+}
+#add {
+  padding: 10px 16px;
+}
